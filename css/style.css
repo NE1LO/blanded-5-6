@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #202020;
   color: #fff;
 }
@@ -33,7 +33,7 @@ ol {
 /*----------------------------------header---------------------------------- */
 
 .header-logo {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
   font-size: 24px;
   font-weight: 600;
@@ -113,13 +113,13 @@ ol {
   letter-spacing: 0.03em;
 }
 
-.hero-text{
+.hero-text {
   max-width: 797px;
 
   margin: 0 auto 30px auto;
 }
 
-.hero-button-list{
+.hero-button-list {
   display: flex;
   gap: 18px;
   justify-content: center;
@@ -137,7 +137,55 @@ ol {
 
 .hero-button:hover,
 .hero-button:focus {
-  background: #FFEB38;
+  background: #ffeb38;
 }
+.about {
+  padding: 112px 0;
+  background-color: #1e1e1e;
+}
+.about-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about-suptitle {
+  color: #fff;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  margin-bottom: 19px;
+}
+.about-suptitle-part {
+  color: #ffeb38;
+  font-weight: 700;
+}
+.about-title {
+  color: #fff;
+  font-size: 48px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  max-width: 534px;
+  margin-bottom: 30px;
+}
+.about-title-part {
+  color: #ffeb38;
+}
+.about-text {
+  color: #696969;
+  text-align: justify;
+  max-width: 534px;
+  margin-bottom: 35px;
 
-
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+}
+.about-button {
+  background-color: #ffeb38;
+  border: none;
+  min-width: 181px;
+  height: 48px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #1e1e1e;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: 0.03em;
+}
