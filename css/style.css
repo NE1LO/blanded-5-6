@@ -3,6 +3,11 @@ body {
   background: #202020;
   color: #fff;
 }
+.container{
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 h1,
 h2,
@@ -31,6 +36,8 @@ ol {
   font-size: 24px;
   font-weight: 600;
   line-height: normal;
+  display: flex;
+  align-items: center;
 }
 
 .header-list-link {
@@ -38,6 +45,8 @@ ol {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.03em;
+  display: block;
+  padding: 35px 0;
 }
 
 .header-button {
@@ -49,4 +58,18 @@ ol {
   line-height: normal;
   letter-spacing: 0.03em;
   cursor: pointer;
+  padding: 10px 18px;
+  border: none;
 }
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-list{
+  display: flex;
+  gap: 40px;
+}
+/* .header-list-item:not(:last-child){ margin-right:40px ;}*/
+  
+
