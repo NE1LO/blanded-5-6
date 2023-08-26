@@ -1,0 +1,52 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #202020;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.header-logo {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header-list-link {
+  color: #fff;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.03em;
+}
+
+.header-button {
+  border-radius: 5px;
+  background: #ffeb38;
+  color: #0e0e0e;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
