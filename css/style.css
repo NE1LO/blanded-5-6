@@ -329,3 +329,71 @@ ol {
   left: 35%;
   top: -25%;
 }
+
+/* portfolio */
+.portfolio {
+  padding: 112px 0;
+}
+
+.portfolio-subtitle {
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.portfolio-subtitle::before,
+.portfolio-subtitle::after {
+  display: block;
+  content: "";
+  width: 163px;
+  height: 2px;
+  background: #d8d8d8;
+}
+
+.portfolio-title {
+  max-width: 460px;
+  color: #fff;
+  font-size: 48px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  margin: 0 auto 47px auto;
+  text-align: center;
+}
+
+.portfolio-title-part {
+  color: #ffeb38;
+}
+
+.portfolio-btn-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
+.portfolio-btn {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  background: #f2f2f2;
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background: #ffeb38;
+}
+
+.portfolio-img-list {
+  display: flex;
+  gap: 20px;
+}
