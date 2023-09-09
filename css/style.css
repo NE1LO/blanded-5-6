@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #202020;
   color: #fff;
 }
@@ -33,7 +33,7 @@ ol {
 /*----------------------------------header---------------------------------- */
 
 .header-logo {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
   font-size: 24px;
   font-weight: 600;
@@ -177,7 +177,7 @@ ol {
 }
 .about-suptitle::before {
   display: block;
-  content: '';
+  content: "";
   width: 143px;
   height: 2px;
   background: #d8d8d8;
@@ -246,7 +246,7 @@ ol {
 }
 
 .services-subtitle::before {
-  content: '';
+  content: "";
   display: block;
   width: 143px;
   height: 2px;
@@ -267,7 +267,7 @@ ol {
 }
 
 .services-text {
-  max-width: 534px;
+  width: 534px;
   margin-bottom: 40px;
   color: #fff;
   text-align: justify;
@@ -286,19 +286,46 @@ ol {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
-
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 61px 20px;
+  margin-left: 89px;
+}
 .services-item {
   border-radius: 5px;
   background: #fff;
   padding: 54px 15px 22px 15px;
+  width: calc((100% - 20px) / 2);
+  width: 263px;
+  position: relative;
 }
 
 .services-list-title {
   color: #000;
   text-align: justify;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.48px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 13px;
+}
+.services-list-text {
+  color: #696969;
+  text-align: center;
+  font-size: 11px;
+  line-height: 1.55; /* 17.05px */
+  letter-spacing: 0.03em;
+}
+.services-icon {
+  background-color: #ffeb38;
+  border-radius: 50%;
+  width: 82px;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #fff;
+  position: absolute;
+  left: 35%;
+  top: -25%;
 }
