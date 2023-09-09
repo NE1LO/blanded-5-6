@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: #202020;
   color: #fff;
 }
@@ -33,7 +33,7 @@ ol {
 /*----------------------------------header---------------------------------- */
 
 .header-logo {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #fff;
   font-size: 24px;
   font-weight: 600;
@@ -177,7 +177,7 @@ ol {
 }
 .about-suptitle::before {
   display: block;
-  content: "";
+  content: '';
   width: 143px;
   height: 2px;
   background: #d8d8d8;
@@ -217,4 +217,88 @@ ol {
   text-align: center;
   line-height: normal;
   letter-spacing: 0.03em;
+}
+
+/* section-services */
+
+.services {
+  padding: 102px 0;
+}
+
+.services-container {
+  display: flex;
+}
+
+.services-subtitle {
+  display: flex;
+  color: #f8f8f8;
+  text-align: justify;
+  font-weight: 700;
+  line-height: 1.55; /* 24.8px */
+  letter-spacing: 0.03em;
+  margin-bottom: 19px;
+  align-items: center;
+  gap: 12px;
+}
+
+.services-subtitle-part {
+  color: #ffeb38;
+}
+
+.services-subtitle::before {
+  content: '';
+  display: block;
+  width: 143px;
+  height: 2px;
+  background: #d8d8d8;
+}
+
+.services-title {
+  color: #f8f8f8;
+  max-width: 443px;
+  font-size: 48px;
+  line-height: 1.25; /* 60.24px */
+  letter-spacing: 0.03em;
+  margin-bottom: 23px;
+}
+
+.services-title-part {
+  color: #ffeb38;
+}
+
+.services-text {
+  max-width: 534px;
+  margin-bottom: 40px;
+  color: #fff;
+  text-align: justify;
+  line-height: 1.55; /* 24.8px */
+  letter-spacing: 0.03em;
+}
+
+.services-btn {
+  min-width: 181px;
+  height: 48px;
+  border-radius: 5px;
+  background: #ffeb38;
+  color: #1e1e1e;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.services-item {
+  border-radius: 5px;
+  background: #fff;
+  padding: 54px 15px 22px 15px;
+}
+
+.services-list-title {
+  color: #000;
+  text-align: justify;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.48px;
 }
