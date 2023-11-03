@@ -74,6 +74,26 @@ ol {
 }
 /* .header-list-item:not(:last-child){ margin-right:40px ;}*/
 
+.header-list-link {
+  position: relative;
+}
+
+.header-list-link::before {
+  content: '';
+  position: absolute;
+  bottom: 20px;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.2s;
+}
+
+.header-list-link:hover::before {
+  width: 100%;
+}
+
 /* --------------------------main------------------------ */
 
 /* section-hero */
